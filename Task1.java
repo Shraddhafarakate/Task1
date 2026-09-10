@@ -11,7 +11,6 @@ class Student {
     }
 }
 
-//Student Grade Magement
 public class Task1 {
 
     public static void main(String[] args) {
@@ -36,7 +35,6 @@ public class Task1 {
             students.add(new Student(name, grade));
         }
 
-        // Calculate statistics
         double total = 0;
         double highest = students.get(0).grade;
         double lowest = students.get(0).grade;
@@ -53,7 +51,6 @@ public class Task1 {
 
         double average = total / students.size();
 
-        // Display Summary Report
         System.out.println("\n========== STUDENT SUMMARY REPORT ==========");
         System.out.printf("%-20s %-10s\n", "Student Name", "Grade");
         System.out.println("-------------------------------------------");
